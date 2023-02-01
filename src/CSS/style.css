@@ -1,0 +1,15 @@
+li {
+  display: inline-block;
+  list-style-type: none;
+  border-right: #000 solid 1px;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+.isRed {
+  color: #ff0000;
+}
+
+.isGreen {
+  color: #008000;
+}
