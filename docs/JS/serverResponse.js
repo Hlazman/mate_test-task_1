@@ -71,8 +71,8 @@ const fetchProducts = async () => {
 
     favs.forEach(button => {
       button.addEventListener('click', () => {
-        button.style.background = `url("../../img/favs/FavsAdd.png") no-repeat center`
-        setTimeout(() => button.style.background = `url("../../img/favs/favs.png") no-repeat center`, 3000)
+        button.style.background = `url("img/favs/FavsAdd.png") no-repeat center`
+        setTimeout(() => button.style.background = `url("img/favs/favs.png") no-repeat center`, 3000)
       });
     })
   }

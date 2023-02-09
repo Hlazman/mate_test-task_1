@@ -89,13 +89,13 @@
     width: 40px;
     color: #fff;
     transition: box-shadow 0.5s, background-color 0.5s, color 0.5s;
-    background: url("../../img/favs/favs.png") no-repeat center;
+    background: url("../img/favs/favs.png") no-repeat center;
     border: 1px solid #b4bdc3;
 }
 
 .products__card__buttons-favorites:hover {
   cursor: pointer;
-  background: url("../../img/favs/FavsAdd.png") no-repeat center;
+  background: url("../img/favs/FavsAdd.png") no-repeat center;
 }
 
 body {
