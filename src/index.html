@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Server response </title>
-    <link rel="stylesheet" href="../CSS/products.css">
-    <script defer src="../JS/serverResponse.js"></script>
+  <title>frequent character</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="/src/JS/frequentCharacter.js"></script>
 </head>
 <body>
   <nav>
@@ -15,14 +15,14 @@
     <li> <a href="queryParams.html"> Query params </a></li>
     <li> <a href="serverResponse.html"> Server response </a></li>
   </nav>
-  
   <hr>
   
-  <h1> Server response </h1>
-  <p> Script that displays a list of products from server response data</p>
-  <hr>
+  <h1> Frequent character </h1>
 
-  <main id="main" class="products"></main>
-  <p id="error" class="isRed"> </p>
+  <form id="form" method="post" action = "/">
+    <input type="text" name="value" required>
+    <button type="submit" id="send"> Check on frequent characters</button>
+  </form>
+  <p id="result"> <p>
 </body>
 </html>
