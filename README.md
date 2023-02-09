@@ -18,6 +18,7 @@ Demo link: https://hlazman.github.io/mate_test-task_1/HTMLForm.html
 Script that will parse query params from url and transform it into object with according key and value.
 
 URL example: ...//test/index.html?em=world&ew=book
+
 Object example: {  “em” : ”world”,  “ew” : ”book” }
 
 Demo link: https://hlazman.github.io/mate_test-task_1/queryParams.html
