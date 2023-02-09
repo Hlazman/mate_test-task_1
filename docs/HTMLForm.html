@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>frequent character</title>
+  <title> HTML Form</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <script defer src="/src/JS/frequentCharacter.js"></script>
+    <script defer src="/docs/JS/HTMLForm.js"></script>
 </head>
 <body>
   <nav>
@@ -15,14 +15,20 @@
     <li> <a href="queryParams.html"> Query params </a></li>
     <li> <a href="serverResponse.html"> Server response </a></li>
   </nav>
+  
   <hr>
   
-  <h1> Frequent character </h1>
+  <h1> HTML Form with local storage </h1>
+  <p> value is odd - red color, if item value is even - green</p>
+  <hr>
 
-  <form id="form" method="post" action = "/">
-    <input type="text" name="value" required>
-    <button type="submit" id="send"> Check on frequent characters</button>
+  <p id="result"> <p>  
+  
+    <form id="form" method="post" action = "/">
+    <input id="field" type="number" name="value" required>
+    <button type="submit" id="send"> Send </button>
+    <button type="reset" id="clear"> Clear </button>
   </form>
-  <p id="result"> <p>
+
 </body>
 </html>
