@@ -24,7 +24,7 @@ const fetchProducts = async () => {
     main.insertAdjacentHTML('afterbegin', 
     `
       <div class = "products__card">
-        <img class="products__card__img" alt = "${product.name}" src = "../../${product.imageUrl}">
+        <img class="products__card__img" alt = "${product.name}" src = "${product.imageUrl}">
         <p class = "products__card__title"> ${product.name} </p>
         <p class = "products__card__price"> ${price} 
           <span class = "products__card__price-old"> ${discount} </span>
